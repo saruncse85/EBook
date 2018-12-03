@@ -23,3 +23,13 @@
       3. http://localhost:8080/eb/class/sports ----- Returns specific class
       4. http://localhost:8080/eb/all/topic -------- Returns all topics
       5. http://localhost:8080/eb/anyurl ----------- Returns http 404 response
+
+Assumptions
+===========
+	1. Input file will be xml file with list of publish urls
+		
+Future Changes
+==============
+	1. We can fetch the publish urls from database.
+	2. All the database configuration can be made by writing a configuration class.
+	3. File can be uploaded from UI, file/file path can be passed to Controller.
