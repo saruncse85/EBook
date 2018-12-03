@@ -2,7 +2,12 @@
 ### Pre-Requisits
     Maven software should be installed and configured.
     JRE/JDK 1.8 should be installed.
-
+    
+Assumptions
+===========
+	1. Input file will be xml file with list of publish urls
+	2. Apache tomcat server is using 8080 port.
+	
 #### Step 1: Click "Clone or Download" button then click "Download Zip".
 
 #### Step 2: Extract the zip file in your local machine.
@@ -16,7 +21,7 @@
 
 #### Step 6: Start the tomcat server.
 
-#### Step 7: Use the following URL's to see the webservice response.
+#### Step 7: Use the following URL's to see the webservice response.(Assuming 8080 is the tomcat port)
 
       1. http://localhost:8080/eb/topic/257  ---- Returns specific topic 
       2. http://localhost:8080/eb/topic/25798767 ----- Returns unknown topic
@@ -24,10 +29,6 @@
       4. http://localhost:8080/eb/all/topic -------- Returns all topics
       5. http://localhost:8080/eb/anyurl ----------- Returns http 404 response
 
-Assumptions
-===========
-	1. Input file will be xml file with list of publish urls
-		
 Future Changes
 ==============
 	1. We can fetch the publish urls from database.
